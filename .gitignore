@@ -1,0 +1,32 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+
+# SQLite / local data
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Coverage/Builds
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local env/config
+.env
+*.env
+
+# Editors
+.vscode/
+"@ | Set-Content -Encoding utf8 .gitignore
